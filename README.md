@@ -1,5 +1,5 @@
 # Loganalyser
-Use: to get some useful information from apache accesslog
+Use: to get some useful information from apache access log
   
  Help menu:
  ----------------------
