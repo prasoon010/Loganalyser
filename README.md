@@ -19,16 +19,16 @@ Use: to get some useful information from apache accesslog
   ----------------------
  To get top n IP hit status:
  
- eg usage1: python3 loganalyser_v2.py -l /usr/local/apache/logs/access_log -i "LAST 10" -c 15
+ eg usage1: python3 loganalyser_v2.py -l /usr/local/apache/logs/access_log -i "FROM 2019-08-16 TO 2019-08-20" -c 15
  This will given hit details of top 15 IPs and plot it in graph and will plot IP coordinates on map
 
 To exclude IPs:
 
-eg usage2: python3 loganalyser_v2.py -l /usr/local/apache/logs/access_log -i "LAST 10" -c 15 -e <IP address> -e <IP address>
+eg usage2: python3 loganalyser_v2.py -l /usr/local/apache/logs/access_log -i "LAST 10" -c 15 -e 192.168.16.1 -e 192.168.2.4
     
 To obtain details of any particular IP:
 
-eg usage3: python3 loganalyser_v2.py -l /usr/local/apache/logs/access_log -i "LAST 10" -ip <IP address>
+eg usage3: python3 loganalyser_v2.py -l /usr/local/apache/logs/access_log -i "PREVIOUS WEEK" -ip 192.168.5.7
   
 Disclaimer: under development, use at your own risk
 
