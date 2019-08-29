@@ -3,17 +3,12 @@ Use: to get some useful information from apache accesslog
   
  Help menu:
  ----------------------
-   -h, --help            show this help message and exit
-  -l LOG, --logfile LOG
-                        Provide the path of the access log
-  -i INTERVAL, --interval INTERVAL
-                        Provide: 'LAST <days>' or 'PREVIOUS DAY/WEEK/MONTH' or
-                        date range 'FROM yyyy-mm-dd TO yyyy-mm-dd'
-  -c COUNT, --count COUNT
-                        Provide min number of IP count
-  -ip IP, --ip IP       Provide IP address
-  -e IPS, --exclude IPS
-                        Provide IP address to exclude
+ -h, --help            #show this help message and exit
+ -l LOG, --logfile LOG   #Provide the path of the access log
+ -i INTERVAL, --interval INTERVAL     #Provide: 'LAST <days>' or 'PREVIOUS DAY/WEEK/MONTH' or date range 'FROM yyyy-mm-dd TO yyyy-mm-dd'
+ -c COUNT, --count COUNT  #Provide min number of IP count
+ -ip IP, --ip IP       #Provide IP address
+ -e IPS, --exclude IPS     #Provide IP address to exclude
   
   Usage
   ----------------------
